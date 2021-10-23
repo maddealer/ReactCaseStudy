@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Assignment Lift HR, React.JS Job list case study
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Overview
 
-## Available Scripts
+Create a form interface with an input named "Job", a selectbox named "Priority" and a button
+named "Create".
+Job input field validation rules
+-Required
+-Max 70 char
+-Only English Letters
+Priority Selectbox validation rules
+-Required
+-Urgent, Regular, Trivial(These should be in the options).
+-A single selection can be made.
+When the Create button is clicked, the content of the form that passes the validation creates a
+record in the table below the form.
+There should be Edit and Delete buttons on the same line for each record.
+Clicking the edit button will display a popup for the relevant record.
+In a form displayed in the popup, the Priority selection box should appear with the current Priority
+information selected.When the "Update" button in the popup is clicked, the Priority value will
+update the related record.(Job value cannot be changed, only Priority value can be changed)
+Clicking the Delete button in the table will delete the related record.
+There must be a Job search input above the table. Whenever this input content changes, the lines
+containing the related Job record should be filtered and displayed in the table.
+The records in the table should be displayed in descending order according to the order of
+priority.
+The background color for each record in the table should be the color representing the priority of
+the relevant record.
+Urgent - Red
+Regular - Yellow
+Trivial - Blue
+It should be prepared using the React.JS library as a single page web application.
 
-In the project directory, you can run:
+### Cloning and Running the Application in local
 
-### `yarn start`
+Clone the project into local
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+npm install
+```
 
-### `yarn test`
+In order to run the application Type the following command
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm start
+```
 
-### `yarn build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Bootstrap](https://getbootstrap.com/) - Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Hristomir Hristov** - _Initial work_ - [maddealer](https://github.com/maddealer)
 
-### `yarn eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License
