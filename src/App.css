@@ -1,5 +1,10 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.header {
+  text-align: center;
+  margin: 25px;
 }
 
 .App-logo {

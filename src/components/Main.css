@@ -1,0 +1,21 @@
+.customLi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+.btn-warning {
+  margin-right: 10px;
+}
+.job {
+  min-width: 30%;
+  max-width: 30%;
+  overflow-wrap: break-word;
+  margin: 0;
+}
+.priority {
+  margin: 0;
+  margin-right: 1px;
+}
